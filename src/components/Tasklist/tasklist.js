@@ -31,7 +31,7 @@ export default function TaskList({
           );
         })}
         {tasks.length === 0 && <div className="empty-list">Lista Vazia</div>}
-        {/* {data ? return true : return false} */}
+        {/* {data ? return true : return false} ...*/}
         <button onClick={addTask} className="btn">
           <img src={plusIcon} alt="plus" />
           Adicionar Tarefa
